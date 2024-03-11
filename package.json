@@ -1,0 +1,47 @@
+{
+	"name": "kuiper",
+	"displayName": "Kuiper",
+	"description": "A modern dark theme for Visual Studio Code.",
+	"version": "1.2.2",
+	"publisher": "ryanauscoll",
+	"icon": "ryanmoon.jpg",
+	"homepage": "https://github.com/ryanauscoll/Kuiper",
+	"galleryBanner": {
+		"color": "#1a1b26",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ryanauscoll/Kuiper"
+	},
+	"license": "MIT",
+	"categories": [
+		"Themes"
+	],
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"scripts": {
+		"build": "vsce package",
+		"publish": "vsce publish",
+		"update": "vsce publish minor"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Kuiper",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-space-black.json"
+			}
+		]
+	},
+	"keywords": [
+		"Kuiper"
+	],
+	"__metadata": {
+		"id": "180b8b89-6540-6058-82a1-fc348bdcc18f",
+		"publisherDisplayName": "ryanauscoll",
+		"publisherId": "ryanauscoll",
+		"isPreReleaseVersion": false
+	}
+}
