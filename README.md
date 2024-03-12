@@ -1,5 +1,5 @@
 # Kuiper
-A modern dark theme for Visual Studio Code.
+A modern dark theme for Visual Studio Code modeled after the "Dark Space" extension by Dead Revolver
 
 ## 🚀 Installation
 
